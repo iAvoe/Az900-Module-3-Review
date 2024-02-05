@@ -24,6 +24,8 @@
 - *Azure Functions*  - Event based code on cloud (not on device)
 - *Azure Logic Apps* - Automate & orchestrate tasks, business processes
 
+-----
+
 ### Azure Development solutions
 - *Azure DevOps*
   - development collaboration tools including:
@@ -38,6 +40,8 @@
   - Automate in GitHub to build, test, & deploy
 - *Azure DevTest Labs*
   - Quickly create environments in Azure while minimizing waste & controlling cost
+
+-----
 
 ## Azure Management Tools
 - *Azure Portal*
