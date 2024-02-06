@@ -98,6 +98,7 @@
 - Continuous integration
 - Continuous delivery/Continuous deployment
 
+
 -----
 
 <br>
@@ -162,6 +163,7 @@
 
 #### Which of the following is not an Azure Management tool?
 - Azure Linux Desktop
+- Note: Wrong name, should be Azure Virtual Desktop
 
 #### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
 - Azure Service Health
