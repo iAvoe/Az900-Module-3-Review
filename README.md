@@ -226,6 +226,16 @@
 
 -----
 
+### Serverless computing
+
+#### Which of the following services should be used when the primary concern is to perform work in response to an event (often via a REST command) that needs a response in a few seconds?
+- Azure Functions
+
+#### What can you use to execute code in a serverless environment?
+- Azure Functions
+
+-----
+
 ### Unsorted
 
 #### Which of the following is not an Azure Management tool?
