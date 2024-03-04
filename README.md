@@ -132,6 +132,9 @@
 #### __________ rapidly provisions and runs new environments with the knowledge that they are in line with the organization's compliance requirements.
 - Azure Blueprints
 
+#### __________ is the deployment and management service for Azure.
+- Azure Resource Manager (ARM)
+
 #### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
 - ARM Templates
 
@@ -182,8 +185,7 @@
 
 -----
 
-### Resource Management & Organization Tools
-
+### Other Management & Organization Tools
 
 #### What service helps you manage your Azure, on-premises, and multi-cloud environments?
 - Azure Arc
@@ -199,12 +201,6 @@
 
 #### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
 - Azure Logic Apps
-
-#### You use __________ to organize resources in an Azure subscription.
-- Resource groups
-
-#### __________ is the logical container used to combine and organize Azure resources.
-- Resource groups
 
 -----
 
