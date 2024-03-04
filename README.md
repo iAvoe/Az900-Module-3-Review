@@ -105,11 +105,35 @@
 
 ## Quiz
 
+### Azure Portal & Cloud Shell
+
+#### What can you use to launch the Azure Cloud Shell?
+- Azure portal (click the cloud shell button to launch)
+
+#### Which two actions can be performed by using Azure portal?
+- Create new resources & Create Microsoft Entra (Azure Active Directory) User
+
+#### Which two tools are accessible via Azure Cloud Shell to manage an Azure environment?
+- Azure CLI & Azure PowerShell
+
+#### What should you use to access Azure Cloud Shell?
+- A Web Browser
+
+#### You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration. What should you recommend?
+- Azure CLI (only Azure CLI supports bash commands)
+
+-----
+
+### Azure Blueprints & ARM Templates
+
 #### _________ is a repeatable set of governance tools that helps development teams quickly build and create new environments while adhering to organizational compliance to speed up development and deployment.
 - Azure Blueprints
 
 #### __________ rapidly provisions and runs new environments with the knowledge that they are in line with the organization's compliance requirements.
 - Azure Blueprints
+
+#### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
+- ARM Templates
 
 #### What two components could you use to implement an "infrastructure as code" deployment?
 - Azure Blueprints
@@ -134,20 +158,21 @@
 #### What is JSON
 - A collection of key-value pairs
 
-#### These items allow easier organization of resources.
-- Tags
+-----
 
-#### What Azure feature can help stay organized and track usage based on metadata associated with resources?
-- Tags
-
-#### __________ is a managed service hosted in the cloud that acts as a central message hub for bi-directional communication between IoT applications and the devices it manages.
-- Azure IoT Hub
+### IoT & Development Tools
 
 #### When using Azure IoT Hub service, what does 'command and control' apply to?
 - Cloud-to-device communication
 
-#### Which is not one of the recommendation categories for Azure Advisor?
-- Capacity
+#### __________ is a managed service hosted in the cloud that acts as a central message hub for bi-directional communication between IoT applications and the devices it manages.
+- Azure IoT Hub
+- 
+#### __________ is a fully managed global IoT SaaS solution that makes it easy to connect, monitor, and manage IoT assets at scale
+- Azure IoT Central
+
+#### __________ is a secured, high-level application platform w/ built-in communication and security features for internet-connected devices.
+- Azure Sphere
 
 #### Which of the following Azure services has pre-trained models available for you to send data to for predictions?
 - Azure Cognitive Services
@@ -155,27 +180,58 @@
 #### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
 - Azure Pipelines
 
-#### __________ is a fully managed global IoT SaaS solution that makes it easy to connect, monitor, and manage IoT assets at scale
-- Azure IoT Central
+-----
 
-#### __________ is a secured, high-level application platform w/ built-in communication and security features for internet-connected devices.
-- Azure Sphere
+### Resource Management & Organization Tools
 
-#### Which of the following is not an Azure Management tool?
-- Azure Linux Desktop
-- Note: Wrong name, should be Azure Virtual Desktop
-
-#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
-- Azure Service Health
-
-#### What can you use to launch the Azure Cloud Shell?
-- Azure portal (click the cloud shell button to launch)
-
-#### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
-- Azure Logic Apps
 
 #### What service helps you manage your Azure, on-premises, and multi-cloud environments?
 - Azure Arc
 
+### What can you use to manage servers across third party cloud platforms and on-premises environments?
+- Azure Arc
+
+#### These items allow easier organization of resources.
+- Tags
+
+#### What Azure feature can help stay organized and track usage based on metadata associated with resources?
+- Tags
+
+#### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
+- Azure Logic Apps
+
 #### You use __________ to organize resources in an Azure subscription.
 - Resource groups
+
+#### __________ is the logical container used to combine and organize Azure resources.
+- Resource groups
+
+-----
+
+### Maintainance Tools
+
+#### You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?
+- Azure Monitor (collects metric and logging data, which are needed to identify under or over-usage)
+
+#### Which Azure service can generate an alert if virtual machine utilization is over 80% for five minutes?
+- Azure Monitor
+
+#### Which is not one of the recommendation categories for Azure Advisor?
+- Capacity
+
+#### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
+- Health advisories (within Azure Advisor)
+
+#### What can you use to automatically detect performance anomalies for web apps?
+- Application Insights
+
+#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
+- Azure Service Health
+
+-----
+
+### Unsorted
+
+#### Which of the following is not an Azure Management tool?
+- Azure Linux Desktop
+- Note: Wrong name, should be Azure Virtual Desktop
