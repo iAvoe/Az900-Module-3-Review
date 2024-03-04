@@ -20,7 +20,7 @@
 - *Cognitive Services*     - Enable apps to see, hear, speak, understand
 - *Azure Bot Service*      - develop intelligent, customer servicing bots
 
-### Azure Serverless Computing solutions
+### Azure Serverless Computing solutions (expand in Module 4)
 - *Azure Functions*  - Event based code on cloud (not on device)
 - *Azure Logic Apps* - Automate & orchestrate tasks, business processes
 
@@ -199,9 +199,6 @@
 #### What Azure feature can help stay organized and track usage based on metadata associated with resources?
 - Tags
 
-#### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
-- Azure Logic Apps
-
 -----
 
 ### Maintainance Tools
@@ -223,16 +220,6 @@
 
 #### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
 - Azure Service Health
-
------
-
-### Serverless computing
-
-#### Which of the following services should be used when the primary concern is to perform work in response to an event (often via a REST command) that needs a response in a few seconds?
-- Azure Functions
-
-#### What can you use to execute code in a serverless environment?
-- Azure Functions
 
 -----
 
