@@ -116,12 +116,6 @@
 #### __________ rapidly provisions and runs new environments with the knowledge that they are in line with the organization's compliance requirements.
 - Azure Blueprints
 
-#### __________ is the deployment and management service for Azure.
-- Azure Resource Manager (ARM)
-
-#### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
-- ARM Templates
-
 #### What two components could you use to implement an "infrastructure as code" deployment?
 - Azure Blueprints
 - ARM Templates
@@ -130,14 +124,17 @@
 
 ### Azure Resource Manager (ARM)
 
+#### __________ is the deployment and management service for Azure.
+- Azure Resource Manager (ARM)
+
 #### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
 - Azure Resource Manager (ARM) templates
 
-#### Which of the following is an attribute of Azure Resource Manager Templates?
-- Repeatable results
+#### What can you use to define the resources you want to provision in a declarative JSON format?
+- Azure Resource Manager (ARM) templates
 
-#### What are sections of a Resource Manager Template
-- `$schema, contentVersion, parameters, variables, functions, resources, outputs
+#### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
+- Azure Resource Manager (ARM) templates
 
 #### What is ARM QuickStart Templates? Where are templates deployed?
 - Resource Manager templates provided by the Azure community.
@@ -148,6 +145,38 @@
 
 #### What is JSON
 - A collection of key-value pairs
+
+#### Which of the following is an attribute of Azure Resource Manager Templates?
+- Repeatable results
+
+#### What are sections of a Resource Manager Template
+- `$schema, contentVersion, parameters, variables, functions, resources, outputs
+
+
+-----
+
+### Azure Portal and Cloudshell
+
+#### Which two actions can be performed by using Azure portal?
+- Create new resources
+- Create Microsoft Entra / Azure Active Directory User
+
+#### What can you use to launch the Azure Cloud Shell?
+- Azure portal (click the cloud shell button to launch)
+
+#### You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration.
+- Azure CLI
+
+#### Which two tools are accessible via Azure Cloud Shell to manage an Azure environment?
+- Azure CLI
+- Azure PowerShell
+
+#### What should you use to access Azure Cloud Shell?
+- A web browser
+
+#### Which two tools can you use to create a new Azure virtual machine from a mobile device that runs Android? 
+- PowerShell in Azure Cloud Shell
+- the Azure Portal
 
 -----
 
@@ -161,6 +190,13 @@
 
 #### You need to associate the costs of resources to different groups within an organization without changing the location of the resources. What should you use?
 - Tags
+
+#### Which is likely the best way for companies to identify which billing department each Azure resource belongs to?
+- Tags
+
+#### Which are two common scenarios for using resource tags?
+- Associating costs with different environments
+- Categorizing costs by department
 
 -----
 
@@ -188,26 +224,11 @@
 
 ### Development, Advises & recommendations
 
-#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
-- Azure Pipelines
+#### Your organization plans to deploy several production virtual machines that will have consistent resource usage throughout the year. What can you use to minimize the costs of the virtual machines without reducing the functionality of the virtual machines?
+- Azure Reservations
 
-#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
-- Azure Service Health
-
-#### What can you use to find information about planned maintenance for Azure services that are critical to your organization?
-- Azure Service Health
-
-#### Which is not one of the recommendation categories for Azure Advisor?
-- Capacity
-
-#### What service helps you manage your Azure, on-premises, and multi-cloud environments?
-- Azure Arc
-
-#### Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance, and cost reduction?
-- Azure Advisor
-
-#### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
-- Azure Advisor
+#### You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?
+- Azure Monitor
 
 #### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
 - Health Advisories
@@ -215,30 +236,40 @@
 #### What can you use to automatically detect performance anomalies for web apps?
 - Azure Application Insights (in Azure Monitor)
 
+#### Which of the following is true for AzureHDInsight?
+- Open-source analytics service to analyze streaming or historical data
+
+#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
+- Azure Pipelines
+
+#### Which is not one of the recommendation categories for Azure Advisor?
+- Capacity
+
+#### What service helps you manage your Azure, on-premises, and multi-cloud environments?
+- Azure Arc
+
+#### You receive an email notification that virtual machines (VMs) in an Azure region where you have VMs deployed is experiencing an outage. Which component of Azure Service Health will let you know if your application is impacted?
+- Resource health
+
+#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
+- Azure Service Health
+
+#### What can you use to find information about planned maintenance for Azure services that are critical to your organization?
+- Azure Service Health
+
+#### You need to review the root cause analysis (RCA) report for a service outage that occurred last week. Where should you look for the report?
+- Azure Service Health
+
+#### Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance, and cost reduction?
+- Azure Advisor
+
+#### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
+- Azure Advisor
+
+#### What provides recommendations to reduce the cost of Azure resources?
+- Azure Advisor
+
 -----
-
-### Azure Portal and Cloudshell
-
-#### Which two actions can be performed by using Azure portal?
-- Create new resources
-- Create Microsoft Entra / Azure Active Directory User
-
-#### What can you use to launch the Azure Cloud Shell?
-- Azure portal (click the cloud shell button to launch)
-
-#### What should you use to access Azure Cloud Shell?
-- A web browser
-
-#### You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration.
-- Azure CLI 
-
------
-
-### Virtual Desktops
-
-#### Which two tools can you use to create a new Azure virtual machine from a mobile device that runs Android? 
-- PowerShell in Azure Cloud Shell
-- the Azure Portal
 
 #### Which of the following is not an Azure Management tool?
 - Azure Linux Desktop
