@@ -105,6 +105,11 @@
 
 ## Quiz
 
+### Azure Blueprint
+
+#### How many parameters does an Azure Blueprint Artifact need to be valid?
+- 0
+
 #### _________ is a repeatable set of governance tools that helps development teams quickly build and create new environments while adhering to organizational compliance to speed up development and deployment.
 - Azure Blueprints
 
@@ -115,8 +120,12 @@
 - Azure Blueprints
 - ARM Templates
 
-#### How many parameters does an Azure Blueprint Artifact need to be valid?
-- 0
+-----
+
+### Azure Resource Manager (ARM)
+
+#### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
+- Azure Resource Manager (ARM) templates
 
 #### Which of the following is an attribute of Azure Resource Manager Templates?
 - Repeatable results
@@ -134,11 +143,28 @@
 #### What is JSON
 - A collection of key-value pairs
 
+-----
+
+### Tags
+
 #### These items allow easier organization of resources.
 - Tags
 
 #### What Azure feature can help stay organized and track usage based on metadata associated with resources?
 - Tags
+
+#### You need to associate the costs of resources to different groups within an organization without changing the location of the resources. What should you use?
+- Tags
+
+-----
+
+### IoT & Automation
+
+#### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
+- Azure Logic Apps
+
+#### __________ is a secured, high-level application platform w/ built-in communication and security features for internet-connected devices.
+- Azure Sphere
 
 #### __________ is a managed service hosted in the cloud that acts as a central message hub for bi-directional communication between IoT applications and the devices it manages.
 - Azure IoT Hub
@@ -146,36 +172,68 @@
 #### When using Azure IoT Hub service, what does 'command and control' apply to?
 - Cloud-to-device communication
 
-#### Which is not one of the recommendation categories for Azure Advisor?
-- Capacity
-
 #### Which of the following Azure services has pre-trained models available for you to send data to for predictions?
 - Azure Cognitive Services
-
-#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
-- Azure Pipelines
 
 #### __________ is a fully managed global IoT SaaS solution that makes it easy to connect, monitor, and manage IoT assets at scale
 - Azure IoT Central
 
-#### __________ is a secured, high-level application platform w/ built-in communication and security features for internet-connected devices.
-- Azure Sphere
+-----
 
-#### Which of the following is not an Azure Management tool?
-- Azure Linux Desktop
-- Note: Wrong name, should be Azure Virtual Desktop
+### Development, Advises & recommendations
+
+#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
+- Azure Pipelines
 
 #### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
 - Azure Service Health
 
-#### What can you use to launch the Azure Cloud Shell?
-- Azure portal (click the cloud shell button to launch)
+#### What can you use to find information about planned maintenance for Azure services that are critical to your organization?
+- Azure Service Health
 
-#### Which Azure serverless computing technology provides the ability to execute workflows to automate business scenarios by using triggers without writing any code?
-- Azure Logic Apps
+#### Which is not one of the recommendation categories for Azure Advisor?
+- Capacity
 
 #### What service helps you manage your Azure, on-premises, and multi-cloud environments?
 - Azure Arc
 
-#### You use __________ to organize resources in an Azure subscription.
-- Resource groups
+#### Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance, and cost reduction?
+- Azure Advisor
+
+#### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
+- Azure Advisor
+
+#### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
+- Health Advisories
+
+#### What can you use to automatically detect performance anomalies for web apps?
+- Azure Application Insights (in Azure Monitor)
+
+-----
+
+### Azure Portal and Cloudshell
+
+#### Which two actions can be performed by using Azure portal?
+- Create new resources
+- Create Microsoft Entra / Azure Active Directory User
+
+#### What can you use to launch the Azure Cloud Shell?
+- Azure portal (click the cloud shell button to launch)
+
+#### What should you use to access Azure Cloud Shell?
+- A web browser
+
+#### You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration.
+- Azure CLI 
+
+-----
+
+### Virtual Desktops
+
+#### Which two tools can you use to create a new Azure virtual machine from a mobile device that runs Android? 
+- PowerShell in Azure Cloud Shell
+- the Azure Portal
+
+#### Which of the following is not an Azure Management tool?
+- Azure Linux Desktop
+- Note: Wrong name, should be Azure Virtual Desktop
