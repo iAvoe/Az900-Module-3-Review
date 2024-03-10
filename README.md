@@ -20,7 +20,7 @@
 - *Cognitive Services*     - Enable apps to see, hear, speak, understand
 - *Azure Bot Service*      - develop intelligent, customer servicing bots
 
-### Azure Serverless Computing solutions
+### Azure Serverless Computing solutions (expand in Module 4)
 - *Azure Functions*  - Event based code on cloud (not on device)
 - *Azure Logic Apps* - Automate & orchestrate tasks, business processes
 
@@ -115,6 +115,12 @@
 
 #### __________ rapidly provisions and runs new environments with the knowledge that they are in line with the organization's compliance requirements.
 - Azure Blueprints
+
+#### __________ is the deployment and management service for Azure.
+- Azure Resource Manager (ARM)
+
+#### What can you use to create resources in Azure and includes a validation step to ensure all resources are created in a specific order based on dependencies, in parallel and idempotent?
+- ARM Templates
 
 #### What two components could you use to implement an "infrastructure as code" deployment?
 - Azure Blueprints
