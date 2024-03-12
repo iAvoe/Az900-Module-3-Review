@@ -61,11 +61,17 @@
   - Automation actions
   - Customized dashboards
 - ***Azure Service Health***
-  - Evaluate the impact of service issues with support, provides a personalized view of:
-  - Planned maintenance
-  - The regions being used
-  - Health of Azure services
-  - Communication regarding outage
+  - Evaluate the impact of service issues with support,
+  - Provides a personalized view of:
+    - Planned maintenance
+    - The regions being used
+    - Health of Azure services
+    - Communication regarding outage
+  - Covers all your Azure services and regions
+- ***Azure Resource Health***
+  - Provides information about the health of individual cloud resources
+- ***Health Advisories***
+  - Changes in Azure services that require your attention
 - ***Azure Resource Manager (ARM) templates***
   - JSON configuration files to repeatably create & deploy Azure infrastructure without commands
   - Declarative syntax
@@ -112,6 +118,7 @@
 
 #### You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?
 - Azure Monitor
+- Note: Azure Monitor is a platform that collects metric and logging, such as CPU percentages. The data can be used to trigger autoscaling.
 
 #### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
 - Health Advisories
@@ -150,7 +157,7 @@
 - Azure Advisor
 
 #### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
-- Azure Advisor
+- Azure Advisor (Not Azure Service Health)
 
 #### What provides recommendations to reduce the cost of Azure resources?
 - Azure Advisor
@@ -182,6 +189,9 @@
 -----
 
 ### Azure Resource Manager (ARM)
+
+#### Which management layer accepts requests from any Azure tool or API and enables you to create, update, and delete resources in an Azure account?
+- Azure Resource Manager (ARM)
 
 #### __________ is the deployment and management service for Azure.
 - Azure Resource Manager (ARM)
