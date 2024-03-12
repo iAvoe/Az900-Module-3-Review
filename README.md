@@ -105,6 +105,65 @@
 
 ## Quiz
 
+### Development, Advises & recommendations
+
+#### Your organization plans to deploy several production virtual machines that will have consistent resource usage throughout the year. What can you use to minimize the costs of the virtual machines without reducing the functionality of the virtual machines?
+- Azure Reservations
+
+#### You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?
+- Azure Monitor
+
+#### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
+- Health Advisories
+
+#### What can you use to automatically detect performance anomalies for web apps?
+- Azure Application Insights (in Azure Monitor)
+
+#### Which of the following is true for AzureHDInsight?
+- Open-source analytics service to analyze streaming or historical data
+
+#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
+- Azure Pipelines
+
+#### What service helps you manage your Azure, on-premises, and multi-cloud environments?
+- Azure Arc
+
+#### What can you use to manage servers across third party cloud platforms and on-premises environments?
+- Azure Arc
+
+#### You receive an email notification that virtual machines (VMs) in an Azure region where you have VMs deployed is experiencing an outage. Which component of Azure Service Health will let you know if your application is impacted?
+- Resource health
+
+#### What can you use to get notification about an outage in a specific Azure region?
+- Azure Service Health
+
+#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
+- Azure Service Health
+
+#### What can you use to find information about planned maintenance for Azure services that are critical to your organization?
+- Azure Service Health
+
+#### You need to review the root cause analysis (RCA) report for a service outage that occurred last week. Where should you look for the report?
+- Azure Service Health
+
+#### Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance, and cost reduction?
+- Azure Advisor
+
+#### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
+- Azure Advisor
+
+#### What provides recommendations to reduce the cost of Azure resources?
+- Azure Advisor
+
+#### Which is not one of the recommendation categories for Azure Advisor?
+- Capacity
+
+#### Which of the following is not an Azure Management tool?
+- Azure Linux Desktop
+- Note: Wrong name, should be Azure Virtual Desktop
+
+------
+
 ### Azure Blueprint
 
 #### How many parameters does an Azure Blueprint Artifact need to be valid?
@@ -152,7 +211,6 @@
 #### What are sections of a Resource Manager Template
 - `$schema, contentVersion, parameters, variables, functions, resources, outputs
 
-
 -----
 
 ### Azure Portal and Cloudshell
@@ -167,12 +225,12 @@
 #### You have a team of Linux administrators that need to manage the resources in Azure. The team wants to use the Bash shell to perform the administration.
 - Azure CLI
 
+#### What should you use to access Azure Cloud Shell?
+- A web browser
+
 #### Which two tools are accessible via Azure Cloud Shell to manage an Azure environment?
 - Azure CLI
 - Azure PowerShell
-
-#### What should you use to access Azure Cloud Shell?
-- A web browser
 
 #### Which two tools can you use to create a new Azure virtual machine from a mobile device that runs Android? 
 - PowerShell in Azure Cloud Shell
@@ -219,58 +277,3 @@
 
 #### __________ is a fully managed global IoT SaaS solution that makes it easy to connect, monitor, and manage IoT assets at scale
 - Azure IoT Central
-
------
-
-### Development, Advises & recommendations
-
-#### Your organization plans to deploy several production virtual machines that will have consistent resource usage throughout the year. What can you use to minimize the costs of the virtual machines without reducing the functionality of the virtual machines?
-- Azure Reservations
-
-#### You need to create a custom solution that uses thresholds to trigger autoscaling functionality to scale an app up or down to meet user demand. What should you include in the solution?
-- Azure Monitor
-
-#### What should you proactively review and act on to avoid service interruptions, such as service retirements and breaking changes?
-- Health Advisories
-
-#### What can you use to automatically detect performance anomalies for web apps?
-- Azure Application Insights (in Azure Monitor)
-
-#### Which of the following is true for AzureHDInsight?
-- Open-source analytics service to analyze streaming or historical data
-
-#### As part of Azure DevOps, what service would you use for adopting CI/CD for a development team?
-- Azure Pipelines
-
-#### Which is not one of the recommendation categories for Azure Advisor?
-- Capacity
-
-#### What service helps you manage your Azure, on-premises, and multi-cloud environments?
-- Azure Arc
-
-#### You receive an email notification that virtual machines (VMs) in an Azure region where you have VMs deployed is experiencing an outage. Which component of Azure Service Health will let you know if your application is impacted?
-- Resource health
-
-#### __________ alerts you when service issues occur in an Azure environment, such as a regional Azure outage that affects all Azure customers.
-- Azure Service Health
-
-#### What can you use to find information about planned maintenance for Azure services that are critical to your organization?
-- Azure Service Health
-
-#### You need to review the root cause analysis (RCA) report for a service outage that occurred last week. Where should you look for the report?
-- Azure Service Health
-
-#### Which Azure service evaluates Azure resources and makes recommendations to help improve reliability, security, performance, and cost reduction?
-- Azure Advisor
-
-#### You need to be notified when there are new recommendations for reducing Azure costs. Which tool should you use?
-- Azure Advisor
-
-#### What provides recommendations to reduce the cost of Azure resources?
-- Azure Advisor
-
------
-
-#### Which of the following is not an Azure Management tool?
-- Azure Linux Desktop
-- Note: Wrong name, should be Azure Virtual Desktop
